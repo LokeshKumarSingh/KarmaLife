@@ -1,0 +1,12 @@
+2- Insights on what the product team should focus on in order to improve conversion rate:
+
+
+As according to the given data, Few things can be done to improve the conversion rate:
+
+- Our users in both desktop as well as in mobile decrease by 50+% from Homepage to search page that means we need to give relevant information on the homepage so that more and more people go through our next page. We also have to make sure that the Ui/Ux of our product is good as people do stay and navigate through websites if the UI/UX is nice.
+
+- We can also see that for desktop users the click through rate from search to payment page is around 10% whereas for the mobile users for the same stage it is around 20%. This means that our search page isn't showing relative products. As we don't have data about what is shown on search page so cannot talk about the features of a product should be shown on the search page itself.
+
+- As we can see that again for desktop users the click through rate from payment to payment confirmation page is around 5% and for the mobile users it is around 10%. For this difference we can say that as mobile is very handy in use and easier to operate, people tend to buy more stuff through mobile than desktop. We can also say that 5-10% CTR is still low and we can work on our price points to have more conversions.
+
+- Overall looking at the data, we can see our desktop users are more than our mobile users but if we talk about how many users get converted or end up on payment confirmation page, we can say for desktop it is 0.251% and for mobile it is 1.003%. So we can say our mobile users are contributing more in our revenue. So we should focus more on our app to bring in more and more mobile users as they are proven to yeild more revenue. 
