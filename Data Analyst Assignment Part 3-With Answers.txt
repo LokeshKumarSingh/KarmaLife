@@ -1,0 +1,41 @@
+Write a function that accepts a string and returns a mapping (a dictionary or dictionary-like structure) 
+that has words as the keys and the number of times each word was seen as the values.
+
+Your function should work like this:
+
+>>> count_words("oh what a day what a lovely day")
+{'oh': 1, 'what': 2, 'a': 2, 'day': 2, 'lovely': 1}
+>>> count_words("don't stop believing")
+{"don't": 1, 'stop': 1, 'believing': 1}
+
+Try to cover as many corner cases possible :)
+
+ANSWER:
+
+#USE OF Library
+
+from collections import Counter
+def count_words(sen):
+    new_sen = sen.split(" ")
+    print(dict(Counter(new_sen)))
+count_words("oh what a day what a lovely day")
+
+
+#Without_Library
+
+def count_words(sen):
+    d = dict()
+    sen = sen.strip()
+    sen = sen.lower()
+    words = sen.split(" ")
+    for word in words:
+        if word in d:
+            d[word] = d[word] + 1
+            # print (d[word])
+        else:
+            d[word] = 1
+      
+    # Print the contents of dictionary
+    for key in list(d.keys()):
+        print(key, ":", d[key])
+count_words("oh what a day what a lovely day")
